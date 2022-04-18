@@ -10,7 +10,7 @@ LIBS =
 .PHONY: all
 all: libs
 	mkdir -p bin
-	$(CC) $(LIBS) src/main.cpp -o bin/super-auto-pets
+	$(CC) $(LIBS) src/main.cpp -o bin/main
 
 compile: $(LIB_OBJ) $(OBJECTS)
 
